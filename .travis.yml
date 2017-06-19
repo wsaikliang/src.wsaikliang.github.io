@@ -8,7 +8,7 @@ cache:
   - packages/create-react-app/node_modules
   - packages/react-scripts/node_modules
 script:
-  #- npm test
+  - npm test
   - npm run build
 deploy:
   provider: pages
