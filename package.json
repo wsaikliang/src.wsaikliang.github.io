@@ -1,14 +1,13 @@
 {
   "name": "src.wsaikliang.github.io",
   "version": "0.1.0",
+  "homepage": "http://www.saikliang.com",
   "private": true,
-  "homepage": "http://wsaikliang.github.io/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.7"
   },
   "scripts": {

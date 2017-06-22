@@ -8,14 +8,14 @@ cache:
   - packages/create-react-app/node_modules
   - packages/react-scripts/node_modules
 script:
-  - npm test
+  #- npm test
   - npm run build
 deploy:
   provider: pages
   local_dir: build
   repo: wsaikliang/wsaikliang.github.io
   target_branch: master
-  #fqdn: www.saikliang.com
+  fqdn: www.saikliang.com
   email: jokerce31@gmail.com
   name: Wittawat Saikliang
   skip_cleanup: true
