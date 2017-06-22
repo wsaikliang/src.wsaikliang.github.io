@@ -5,9 +5,8 @@ import './App.css';
 class App extends Component {
     state = {
         imageUrl: ""
-    }
+    };
     
-
   componentDidMount() {
         fetch('https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=computer+cat')
           .then( res => res.json())
@@ -19,7 +18,6 @@ class App extends Component {
           })
         } 
 
-
   render() {
     return (
       <div className="App">
@@ -29,10 +27,6 @@ class App extends Component {
               <a className="rainbow" href="https://wittawatsaikliang.wordpress.com/category/technical/">Wittawat Saikliang</a>
           </h2>
         </div>
-        <p className="App-intro">
-          Wittawat has started learning React :)
-
-        </p>
           < img src = {this.state.imageUrl} alt="" />
       </div>
     );
